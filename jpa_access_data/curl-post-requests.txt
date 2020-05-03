@@ -1,0 +1,14 @@
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Frodo\", \"lastName\": \"Baggins\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Fred\", \"lastName\": \"Flintstone\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Roger\", \"lastName\": \"Ramjet\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Freddy\", \"lastName\": \"Krueger\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Nancy\", \"lastName\": \"Drew\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Barney\", \"lastName\": \"Rubble\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Mister\", \"lastName\": \"Rogers\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Julia\", \"lastName\": \"Childs\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Martha\", \"lastName\": \"Stewart\"}" http://localhost:8080/people
+curl -i -H "Content-Type:application/json" -d "{\"firstName\": \"Ada\", \"lastName\": \"Lovelace\"}" http://localhost:8080/people
+
+
+
+curl http://localhost:8080/people/search/findByLastName?name=Ramjet
